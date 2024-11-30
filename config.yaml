@@ -1,0 +1,15 @@
+device_list: ["cuda:0", "cuda:1", "cuda:2", "cuda:2"] # last element of this list should be the cuda GPU index where you want to keep the global model and rest all the other elements are the devices where client models are to be kept
+batch_size: 1
+n_clients: 3
+modality: 'text' # can only contain values either 'text' or 'image'
+target_module_list: ["up_proj"] # choose according to the model
+framework: "ffa-lora" # can only contain values among: ['fedftg', 'flexlora', 'ffa-lora']
+dataframe_paths: "./save_paths/dataframe"
+dataset: "medquad"
+hf_model: "google/gemma-2b" # TinyLlama/TinyLlama_v1.1 , for vision: google/siglip-so400m-patch14-384
+lr: [1e-4, 1e-4, 1e-4]
+rank: 16
+lora_alpha: 32
+test_size_fraction: 0.1 #fraction of total dataset/dataframe that you want to keep as test set
+epochs: 3
+local_iter: 10 # number of local training iterations between two global FedAvg aggregation steps

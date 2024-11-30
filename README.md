@@ -1,6 +1,6 @@
 # Why Gradient Subspace? Identifying and Mitigating LoRA's Bottlenecks in Federated Fine-Tuning of Large Language Models
 
-This is the official repository of the paper "Why Gradient Subspace? Identifying and Mitigating LoRA's Bottlenecks in Federated Fine-Tuning of Large Language Models" (link ![https://arxiv.org/abs/2410.23111](here)). 
+This is the official repository of the paper "Why Gradient Subspace? Identifying and Mitigating LoRA's Bottlenecks in Federated Fine-Tuning of Large Language Models" (link [here](https://arxiv.org/abs/2410.23111)). 
 
 ## How to Setup and Run the Repo:
 

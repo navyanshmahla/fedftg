@@ -1,6 +1,8 @@
-# Why Gradient Subspace? Identifying and Mitigating LoRA's Bottlenecks in Federated Fine-Tuning of Large Language Models
+# Efficient Federated Learning without using Low Rank Adaptation (LoRA)
 
-This is the official repository of the paper "Why Gradient Subspace? Identifying and Mitigating LoRA's Bottlenecks in Federated Fine-Tuning of Large Language Models" (link [here](https://arxiv.org/abs/2410.23111)). 
+This repository contains (or will, shortly) code for the following papers:
+- Why Gradient Subspace? Identifying and Mitigating LoRA's Bottlenecks in Federated Fine-Tuning of Large Language Models (link [here](https://arxiv.org/abs/2410.23111)).
+- Sequential Compression Layers for Efficient Federated Learning in Foundational Models (link [here](https://arxiv.org/abs/2412.07021)).
 
 ## How to Setup and Run the Repo:
 
